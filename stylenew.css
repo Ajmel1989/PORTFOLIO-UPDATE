@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.navbar{
+    height: 15%;
+    width: 100%;
+    /* background-color: #fff; */
+    /* display: flex; */
+    z-index: 1;
+}
+.portfolio{
+    font-weight: bolder;
+    font-family:cursive;
+}
+    
+   
+.first-page{
+    height: 85%;
+    width: 100%;
+    /* background-color: #797575; */
+    display: flex;
+    background-image: url(/images/How-Many-Web-Developers-in-the-World-1.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.first-left{
+    height: 130%;
+    width: 90%;
+    background-color:white;
+    rotate: 45deg;
+    position: relative;
+    /* bottom: 20px; */
+    right: 185px;  
+    
+   
+}
+.heading{
+    rotate: -45deg;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    font-size:40px;
+    
+}
+.fresher{
+    font-size:15px;
+    color: rgb(172, 170, 170);
+   
+}
+.header{
+    /* font-size:40px; */
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 170, 170);
+    
+    
+}
+@media (max-width:1200px){
+    .header{
+        font-size: 4rex;
+        color: rgb(139, 141, 140);
+    }
+    .heading{
+        position: relative;
+        top: 0%;
+        left: 25%;
+        
+    }
+    .fresher h5{
+        font-size: 4rex;
+    }
+}
+@media (max-width:991px){
+    .header{
+        font-size: 3rex;
+        color: rgb(139, 141, 140);
+    }
+    .heading{
+        position: relative;
+        top: 0%;
+        left: 25%;
+        
+    }
+    .fresher h5{
+        font-size: 3rex;
+    }
+}
+@media (max-width:768px){
+    .header{
+        font-size: 3rex;
+        color: rgb(139, 141, 140);
+    }
+    .heading{
+        position: relative;
+        top: 0%;
+        left: 32%;
+        
+    }
+    .fresher h5{
+        font-size: 7px;
+    }
+}
+@media (min-width:400px) and (max-width:576px){
+    .header{
+        font-size: 2rex;
+        color: rgb(139, 141, 140);
+        background-color:rgba(255, 255, 255, 0);
+    }
+    .heading{
+        position: relative;
+        top: 0%;
+        left: 40%;        
+    }
+    .fresher h5{
+        font-size: 5px;
+    }
+    
+}
+#name{
+    color: black;
+    
+}
+
+.first-right{
+    height: 100%;
+    width: 50%;
+    
+}
+
+/* ======================================second page ============================================ */
+
+.second-page{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-page-left{
+    height: 90%;
+    width: 30%;
+    background-color: aliceblue;
+    background-image: url(/images/my-photo.jpg);
+}
+.second-page-right{
+    height: 90%;
+    width: 50%;
+    background-color: bisque;
+}
